@@ -14,6 +14,22 @@ define:
 vector< type > name[(size[, init-value])];
 ```
 
+initialization:
+
+```cpp
+vector<int> v2 = v1;
+vector<int> v3(v1);  // v2 and v3 are the same
+vector<int> v4(1000);  // with specific size
+vector<int> v5(20, -1);  // with initial value -1
+```
+
+multidimensional:
+
+```cpp
+vector<vector<int> > matrix;
+vector<vector<int> > matrix2(N, vector<int>(M, -1)) //with size NxM and init-value -1
+```
+
 member functions:
 
 * check empty: 
@@ -68,22 +84,6 @@ erase( begin_pointer, end_pointer )
 
 v.erase(it); // remove the ele at it
 v.erase(v.begin(),v.begin()+2); // remove first 2 eles (not removing the third one, which is (v.begin()+2) pointing at)
-```
-
-initialization:
-
-```cpp
-vector<int> v2 = v1;
-vector<int> v3(v1);  // v2 and v3 are the same
-vector<int> v4(1000);  // with specific size
-vector<int> v5(20, -1);  // with initial value -1
-```
-
-multidimensional:
-
-```cpp
-vector<vector<int> > matrix;
-vector<vector<int> > matrix2(N, vector<int>(M, -1)) //with size NxM and init-value -1
 ```
 
 ## pairs
@@ -175,5 +175,18 @@ sort(x.rbegin(), x.rend()) // sort in descending order
 
 ## string
 
+* include
+
+```cpp
+#include<string>
+```
+
+* define
+
+```
+string name;
+```
+
+* 
 
 
