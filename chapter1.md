@@ -135,10 +135,10 @@ index = it - v.begin() // to get the index of the result
 
 * max\_element\(\), min\_element\(\)
 
-```
-max_element( begin_pointer, end_pointer )
-it = max_element(v.begin(),v.end())
-n = *max_element(v.begin(),v.end())
+```cpp
+max_element( begin_pointer, end_pointer ) // min_ is the same
+it = max_element(v.begin(),v.end()) // returns pointer
+n = *max_element(v.begin(),v.end()) // returns value
 ```
 
 
