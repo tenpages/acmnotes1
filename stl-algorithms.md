@@ -31,7 +31,7 @@ copy(v1.begin(), v1.end(), v2.end()-v1.size());  // copying v1 to after elements
 
 ## set\_
 
-```
+```cpp
 set_union(), set_intersection(), set_difference() and set_symmetric_difference()
 
 set_union(begin1, end1, begin2, end2, begin_result) // returns iterator point to the last ele in result
@@ -41,8 +41,14 @@ vector<int> v1 = {1,2,3,4,5};
 vector<int> v2 = {3,4,5,6,7};
 vector<int> v3(v1.size()+v2.size());
 vector<int>::iterator it;
-it = set_union(v1.begin(),v1.end(),v2.begin(),v2.end(),v3.begin());
-v3.resize(it - v3.begin());
+it = set_union(v1.begin(),v1.end(),v2.begin(),v2.end(),v3.begin()); // v3={1,2,3,4,5,6,7,?,?,?}
+v3.resize(it - v3.begin()); // v3={1,2,3,4,5,6,7}
+```
+
+## mathematics
+
+```
+accumulate( begin, end, start[, method]) // returns answer
 ```
 
 
