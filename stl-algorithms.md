@@ -12,14 +12,26 @@ max(a,b);   // returns minimum or maximum ele
 swap(a,b);  // swaps
 
 sort(begin, end);   // sort ascendingly
-sort(begin, end, cmp);
-// remind: cmp should be based on '<' operator
+sort(begin, end, cmp());
+// remind: cmp() should be based on '<' operator
 // and always return 'false' for same (equal) stuffs
 
 find(begin, end, ele); // find in O(N) time
 
 next_permutation(begin, end)
 prev_permutation(begin, end) // find and change it to the alphabetically next or previous permutation of the interval
+```
+
+* implement `cmp()` for self-created structure:
+
+```
+struct point {
+    double x,y;
+    //...
+    bool operator < (const point& p) const {
+        
+    }
+}
 ```
 
 ## copy
