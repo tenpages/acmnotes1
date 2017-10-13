@@ -8,7 +8,7 @@ include:
 #include<vector>
 ```
 
-define: 
+define:
 
 ```cpp
 vector< type > name[(size[, init-value])];
@@ -46,23 +46,12 @@ v.resize(s) //new eles filled with zeros
 v.clear()
 ```
 
-* 
-initialization:
+* initialization:
 
 ```
 vector<int> v2 = v1;
 vector<int> v3(v1);  // v2 and v3 are the same
 ```
-
-
-
-
-
-
-
-
-
-
 
 
 
