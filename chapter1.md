@@ -96,6 +96,12 @@ set<int> s;
 v.assign(s.begin(),s.end())
 ```
 
+* reserve:
+
+```cpp
+reserve( x ) // help keeping the vector not allocating too much memory (lesser than x till it actually reaches x)
+```
+
 ## pairs
 
 define:
