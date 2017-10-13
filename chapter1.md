@@ -232,6 +232,8 @@ set<int> s;
 initialization
 
 ```cpp
+set<int> s={1,2,3,4}
+
 int data[5]={5,1,3,4,2}
 vector<int> v1; v1={1,2,3,2,3,4}
 set<int> s1(data, data+5); // s={1,2,3,4,5}
@@ -263,4 +265,28 @@ s.count(x) // return the number
 ```
 
 use iterator \(in this case, normal iterator\) to traverse
+
+## map
+
+include
+
+```cpp
+#include<map>
+```
+
+define
+
+```cpp
+map< type1, type2 > m;  // type1 for keys, type2 for values
+```
+
+operator
+
+* \[ \]
+
+```
+m['abc'] // returns the value of m['abc']
+```
+
+
 
