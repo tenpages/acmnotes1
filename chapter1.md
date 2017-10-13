@@ -208,8 +208,6 @@ string s1=substr(0,3); //s1="hel"
 
 ## set
 
-
-
 include
 
 ```cpp
@@ -226,9 +224,24 @@ member functions:
 
 * insert
 * erase
+
+```
+erase( x ) // remove some value from it
+erase( it1, it2 ) // remove all value between it1 and it2 (include *it1, not include *it2)
+```
+
 * size
+* find  //different from the global function find\(\)
+
+```cpp
+s.find(x)  // return an iterator point to the result or end() if not found
+```
+
+* count //useless
+
+```cpp
+s.count(x) // return the number
+```
 
 use iterator \(in this case, normal iterator\) to traverse
-
-
 
