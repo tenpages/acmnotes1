@@ -1,21 +1,68 @@
-# First Chapter
+# STL
 
-\#\# Vector
+## Vector
 
-include: \`\#include\`
+include:
 
-define: \`vector&lt; type &gt; name\[\(size\[, init-value\]\)\];\`
+```cpp
+#include<vector>
+```
+
+define: 
+
+```cpp
+vector< type > name[(size[, init-value])];
+```
 
 methods:
 
-* check empty: \`v.empty\(\)\`
+* check empty: 
 
-* check size: \`v.size\(\) //don't use this for empty checking like ".size\(\)==0"\`
+```
+v.empty()
+```
 
-* add one ele x to the end: \`v.push\_back\(x\)\`
+* check size: 
 
-* change size: \`v.resize\(s\)\`
+```
+v.size() //don't use this for empty checking like ".size()==0"
+```
+
+* add one ele x to the end: 
+
+```
+v.push_back(x)
+```
+
+* change size: 
+
+```
+v.resize(s) //new eles filled with zeros
+```
+
+* clear \(resize to 0\): 
+
+```
+v.clear()
+```
 
 * 
+initialization:
+
+```
+vector<int> v2 = v1;
+vector<int> v3(v1);  // v2 and v3 are the same
+```
+
+
+
+
+
+
+
+
+
+
+
 
 
