@@ -55,8 +55,9 @@ insert( iterator, range_begin_pointer, range_end_pointer ) // insert a part of a
 vector<int> v;  v=[1,2,3];
 vector<int> v2;  v2=[4,5,6];
 vector<int>::iterator it = v.begin();
-v.insert(1, 42);  // v=[1,42,2,3]
-v.insert(1, v2.begin(), v2.end()) // v=[1,4,5,6,2,3]
+v.insert(it+1, 42);  // v=[1,42,2,3]
+it = v.begin();   // after insert/erase, old iterator no longer valid
+v.insert(it, v2.begin(), v2.end()) // v=[1,42,4,5,6,2,3]
 ```
 
 * erase:
