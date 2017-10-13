@@ -127,10 +127,18 @@ functions:
 
 * find\(\)
 
-```
+```cpp
 find( begin_pointer, end_pointer, target_ele )
 it = find(v.begin(), v.end(), 10) // returns the pointer of the result, if not found, return .end()
 index = it - v.begin() // to get the index of the result
+```
+
+* max\_element\(\), min\_element\(\)
+
+```
+max_element( begin_pointer, end_pointer )
+it = max_element(v.begin(),v.end())
+n = *max_element(v.begin(),v.end())
 ```
 
 
