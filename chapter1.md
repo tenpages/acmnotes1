@@ -17,6 +17,7 @@ vector< type > name[(size[, init-value])];
 initialization:
 
 ```cpp
+vector<int> v1 = {1,2,3,4,5,6};
 vector<int> v2 = v1;
 vector<int> v3(v1);  // v2 and v3 are the same
 vector<int> v4(1000);  // with specific size
