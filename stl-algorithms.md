@@ -20,7 +20,14 @@ next_permutation(begin, end)
 prev_permutation(begin, end) // find and change it to the alphabetically next or previous permutation of the interval
 ```
 
-## 
+## copy
+
+```cpp
+copy( from_begin, from_end, to_begin )
+
+v2.resize(v1.size()+v2.size());                  // make sure there's enough space
+copy(v1.begin(), v1.end(), v2.end()-v1.size());  // copying v1 to after elements of v2
+```
 
 
 
