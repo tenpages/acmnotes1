@@ -289,5 +289,14 @@ operator
 m['abc'] // returns the value of m['abc'], or create a new item in m with key 'abc' if it does not exist
 ```
 
+member functions:
+
+* insert
+* erase
+* size
+* find // **do not use `[ ]` **in if's, use find\(\) instead
+
+
+
 
 
