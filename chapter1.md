@@ -224,10 +224,10 @@ init
 
 ```cpp
 int data[5]={5,1,3,4,2}
-vector<int> v; v={1,2,3,2,3,4}
-set<int> s(data, data+5); // s={1,2,3,4,5}
-set<int> s(v.begin(), v.end()); // s={1,2,3,4}
-vector<int> v(s.begin(), s.end()); // v={1,2,3,4} (sorted and distinct)
+vector<int> v1; v1={1,2,3,2,3,4}
+set<int> s1(data, data+5); // s={1,2,3,4,5}
+set<int> s2(v1.begin(), v1.end()); // s2={1,2,3,4}
+vector<int> v2(s.begin(), s.end()); // v2={1,2,3,4} (sorted and distinct)
 ```
 
 member functions:
