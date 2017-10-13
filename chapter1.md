@@ -208,13 +208,27 @@ string s1=substr(0,3); //s1="hel"
 
 ## set
 
+
+
 include
 
 ```cpp
 #include<set>
 ```
 
+define
 
+```cpp
+set<int> s;
+```
+
+member functions:
+
+* insert
+* erase
+* size
+
+use iterator \(in this case, normal iterator\) to traverse
 
 
 
