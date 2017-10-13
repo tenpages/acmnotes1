@@ -225,8 +225,8 @@ member functions:
 * insert
 * erase
 
-```
-erase( x ) // remove some value from it
+```cpp
+erase( x ) // remove some value from the set
 erase( it1, it2 ) // remove all value between it1 and it2 (include *it1, not include *it2)
 ```
 
