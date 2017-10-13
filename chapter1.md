@@ -49,8 +49,8 @@ v.clear()
 * insert:
 
 ```cpp
-v.insert( iterator, value ) // insert the value at iterator
-v.insert( iterator, range_begin_pointer, range_end_pointer ) // insert a part of a vector at iterator
+insert( iterator, value ) // insert the value at iterator
+insert( iterator, range_begin_pointer, range_end_pointer ) // insert a part of a vector at iterator
 
 vector<int> v;  v={1,2,3};
 vector<int> v2;  v2={4,5,6};
@@ -60,13 +60,14 @@ it = v.begin();   // after insert/erase, old iterator no longer valid
 v.insert(it, v2.begin(), v2.end()) // v=[4,5,6,1,42,2,3]
 ```
 
-functions:
-
 * erase:
 
 ```cpp
 erase( iterator )
 erase( begin_pointer, end_pointer )
+
+v.erase(it); // remove the ele at it
+v.erase(v.begin(),v.begin()+2); // remove first 2 eles (not removing the third one, which is (v.begin()+2) pointing at)
 ```
 
 initialization:
