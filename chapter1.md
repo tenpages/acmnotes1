@@ -60,6 +60,8 @@ it = v.begin();   // after insert/erase, old iterator no longer valid
 v.insert(it, v2.begin(), v2.end()) // v=[4,5,6,1,42,2,3]
 ```
 
+functions:
+
 * erase:
 
 ```cpp
