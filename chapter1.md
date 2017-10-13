@@ -14,7 +14,7 @@ define:
 vector< type > name[(size[, init-value])];
 ```
 
-methods:
+member functions:
 
 * check empty: 
 
@@ -62,7 +62,26 @@ vector<vector<int> > matrix;
 vector<vector<int> > matrix2(N, vector<int>(M, -1)) //with size NxM and init-value -1
 ```
 
+## pairs
 
+define:
+
+```cpp
+pair< type1, type2 > name;
+```
+
+extract:
+
+```cpp
+type1 a = p.first;
+type2 b = p.second;
+```
+
+note:
+
+pairs can be compaired first-to-second element directly using '&lt;', '==', and '&gt;' etc.
+
+## iterators
 
 
 
