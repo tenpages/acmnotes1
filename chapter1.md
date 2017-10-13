@@ -183,6 +183,29 @@ sort(x.begin(), x.end()) // sort in ascending order
 sort(x.rbegin(), x.rend()) // sort in descending order
 ```
 
+iterator functions:
+
+```cpp
+#include<iterator>
+```
+
+* begin\(\), end\(\):
+
+```cpp
+begin(v); // == v.begin()
+end(v); // == v.end()
+```
+
+* inserter\(\), front\_inserter\(\), back\_inserter\(\):
+
+```cpp
+inserter( container, iterator_0 ) // create a iterator using insert() that always insert before the iterator_0
+front_inserter( container ) // create a iterator using push_front() (if appliable)
+back_inserter( container ) // create a iterator using push_back() (if appliable)
+```
+
+inserters can be used in `copy()`  as the third parameter.
+
 ## string
 
 include
