@@ -29,7 +29,15 @@ v2.resize(v1.size()+v2.size());                  // make sure there's enough spa
 copy(v1.begin(), v1.end(), v2.end()-v1.size());  // copying v1 to after elements of v2
 ```
 
-## 
+## set\_
+
+```
+set_union(), set_intersection(), set_difference() and set_symmetric_difference()
+
+set_union(begin1, end1, begin2, end2, begin_result);
+// remind: the size of result must be enough
+result;
+```
 
 
 
