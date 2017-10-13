@@ -175,18 +175,30 @@ sort(x.rbegin(), x.rend()) // sort in descending order
 
 ## string
 
-* include
+include
 
 ```cpp
 #include<string>
 ```
 
-* define
+define
 
 ```
 string name;
 ```
 
-* 
+member functions:
+
+basically the same as vectors
+
+* substring:
+
+```
+substr( begin_index, end_index )
+
+string s = "hello";
+string s1=substr(0,3); //s1="hel"
+```
+
 
 
