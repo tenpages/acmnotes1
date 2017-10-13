@@ -34,9 +34,9 @@ copy(v1.begin(), v1.end(), v2.end()-v1.size());  // copying v1 to after elements
 ```
 set_union(), set_intersection(), set_difference() and set_symmetric_difference()
 
-set_union(begin1, end1, begin2, end2, begin_result);
+it = set_union(begin1, end1, begin2, end2, begin_result);
 // remind: the size of result must be enough
-result;
+result.resize(result.end()-it);
 ```
 
 
