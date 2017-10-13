@@ -220,7 +220,7 @@ define
 set<int> s;
 ```
 
-init
+initialization
 
 ```cpp
 int data[5]={5,1,3,4,2}
