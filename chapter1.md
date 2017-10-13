@@ -88,7 +88,7 @@ v.erase(v.begin(),v.begin()+2); // remove first 2 eles (not removing the third o
 
 * assign:
 
-```
+```cpp
 assign( begin_pointer, end_pointer) // put something else into the vector
 
 set<int> s;
