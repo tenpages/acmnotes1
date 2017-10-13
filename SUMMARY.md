@@ -1,5 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-* [STL](chapter1.md)
+* [STL data structures](chapter1.md)
+* [STL algorithms](stl-algorithms.md)
 
