@@ -46,7 +46,6 @@ v.resize(s) //new eles filled with zeros
 v.clear()
 ```
 
-* 
 initialization:
 
 ```cpp
@@ -60,8 +59,10 @@ multidimensional:
 
 ```cpp
 vector<vector<int> > matrix;
-
+vector<vector<int> > matrix2(N, vector<int>(M, -1)) //with size NxM and init-value -1
 ```
+
+
 
 
 
