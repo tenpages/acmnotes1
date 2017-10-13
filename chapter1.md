@@ -49,8 +49,8 @@ v.clear()
 * insert:
 
 ```cpp
-insert( iterator, value ) // insert the value at iterator
-insert( iterator, range_begin_pointer, range_end_pointer ) // insert a part of a vector at iterator
+v.insert( iterator, value ) // insert the value at iterator
+v.insert( iterator, range_begin_pointer, range_end_pointer ) // insert a part of a vector at iterator
 
 vector<int> v;  v={1,2,3};
 vector<int> v2;  v2={4,5,6};
@@ -62,12 +62,12 @@ v.insert(it, v2.begin(), v2.end()) // v=[4,5,6,1,42,2,3]
 
 * erase:
 
-```
+```cpp
 erase( iterator )
 erase( begin_pointer, end_pointer )
 ```
 
-* initialization:
+initialization:
 
 ```cpp
 vector<int> v2 = v1;
