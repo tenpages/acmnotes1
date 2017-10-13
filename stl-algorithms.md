@@ -13,6 +13,8 @@ swap(a,b);  // swaps
 
 sort(begin, end);   // sort ascendingly
 sort(begin, end, cmp);
+// remind: cmp should be based on '<' operator
+// and always return 'false' for same (equal) stuffs
 
 find(begin, end, ele); // find in O(N) time
 
@@ -29,7 +31,7 @@ v2.resize(v1.size()+v2.size());                  // make sure there's enough spa
 copy(v1.begin(), v1.end(), v2.end()-v1.size());  // copying v1 to after elements of v2
 ```
 
-## set\_
+## set operations
 
 ```cpp
 set_union(), set_intersection(), set_difference() and set_symmetric_difference()
@@ -47,8 +49,28 @@ v3.resize(it - v3.begin()); // v3={1,2,3,4,5,6,7}
 
 ## mathematics
 
-```
+* accumulate\(\):
+
+```cpp
 accumulate( begin, end, start[, method]) // returns answer
+```
+
+use a method function or operator that takes two input arguments and returns a number, e.g.
+
+```cpp
+int myMethod(int x, int y) {return x+2*y;}
+```
+
+or these
+
+```cpp
+ plus<type>(), minus<type>(), multiplies<type>(), divide<type>(), and modulus<type>()
+```
+
+* inner\_product\(\):
+
+```cpp
+inner_product( begin1, end1, begin2, shift)
 ```
 
 
