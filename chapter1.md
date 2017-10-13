@@ -286,7 +286,7 @@ operator
 * \[ \]
 
 ```
-m['abc'] // returns the value of m['abc']
+m['abc'] // returns the value of m['abc'], or create a new item in m with key 'abc' if it does not exist
 ```
 
 
