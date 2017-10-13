@@ -123,5 +123,15 @@ it++; it--;  // ++, -- for increment and decrement
 cout << (it1 != it2) << (it1 == it2); // comparison between iterators (only == and !=)
 ```
 
+functions:
+
+* find\(\)
+
+```
+find( begin_pointer, end_pointer, target_ele )
+it = find(v.begin(), v.end(), 10) // returns the pointer of the result, if not found, return .end()
+index = it - v.begin() // to get the index of the result
+```
+
 
 
