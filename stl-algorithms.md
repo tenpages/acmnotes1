@@ -40,7 +40,9 @@ set_union(begin1, end1, begin2, end2, begin_result) // returns iterator point to
 vector<int> v1 = {1,2,3,4,5};
 vector<int> v2 = {3,4,5,6,7};
 vector<int> v3(v1.size()+v2.size());
-result.resize( it - v.begin );
+vector<int>::iterator it;
+it = set_union(v1.begin(),v1.end(),v2.begin(),v2.end(),v3.begin());
+v3.resize(it - v3.begin());
 ```
 
 
