@@ -98,12 +98,12 @@ reverse iterators `.rbegin()` and `.rend()` are used for tracking elements backw
 
 random iterators support the following operations: \(pointer-like\)
 
-```
+```cpp
 int x = *it; // * for getting value
 it++; it--;  // ++, -- for increment and decrement
 cout << (it1 != it2) << (it1 < it2); // comparison between iterators
 it += 20; // plus or minus some number meaning shift for/backward more than one position
-it = it2 - it1; // getting 
+it = it2 - it1; // getting
 ```
 
 
