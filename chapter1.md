@@ -183,7 +183,7 @@ include
 
 define
 
-```
+```cpp
 string name;
 ```
 
@@ -191,14 +191,30 @@ member functions:
 
 basically the same as vectors
 
+* length:
+
+```cpp
+s.length() // it's unsigned so don't do s.length()-1 arbitrarily just in case it is 0 already
+```
+
 * substring:
 
-```
+```cpp
 substr( begin_index, end_index )
 
 string s = "hello";
 string s1=substr(0,3); //s1="hel"
 ```
+
+## set
+
+include
+
+```cpp
+#include<set>
+```
+
+
 
 
 
