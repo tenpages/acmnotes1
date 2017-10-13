@@ -83,6 +83,15 @@ pairs can be compaired first-to-second element directly using '&lt;', '==', and 
 
 ## iterators
 
+define:
+
+```cpp
+vector<int>::iterator it1;
+vector<int>::const_iterator it2;
+vector<int>::reverse_iterator it3;
+vector<int>::const_reverse_iterator it4;
+```
+
 most common iterators are `.begin()` and `.end()`.
 
 function `reverse()` can reverse elements between two iterators \(or pointers\):
@@ -104,6 +113,14 @@ it++; it--;  // ++, -- for increment and decrement
 cout << (it1 != it2) << (it1 < it2); // comparison between iterators
 it += 20; // plus or minus some number meaning shift for/backward more than one position
 it = it2 - it1; // getting
+```
+
+normal iterators only support some comparison methods and in/decrease. they don't support subtraction.
+
+```cpp
+int x = *it; // * for getting value
+it++; it--;  // ++, -- for increment and decrement
+cout << (it1 != it2) << (it1 == it2); // comparison between iterators (only == and !=)
 ```
 
 
