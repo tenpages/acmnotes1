@@ -83,5 +83,28 @@ pairs can be compaired first-to-second element directly using '&lt;', '==', and 
 
 ## iterators
 
+most common iterators are `.begin()` and `.end()`.
+
+function `reverse()` can reverse elements between two iterators \(or pointers\):
+
+```cpp
+int a[10]={1,2,3,4,5,6,7,8,9,10};
+vector<int> v=a;
+reverse(a+2, a+5);  // {3,4,5} -> {5,4,3}
+reverse(v.begin(), v.end()); // totally reverse
+```
+
+reverse iterators `.rbegin()` and `.rend()` are used for tracking elements backward \(for which `++` means go backward and `--` means go forward\)
+
+random iterators support the following operations: \(pointer-like\)
+
+```
+int x = *it; // * for getting value
+it++; it--;  // ++, -- for increment and decrement
+cout << (it1 != it2) << (it1 < it2); // comparison between iterators
+it += 20; // plus or minus some number meaning shift for/backward more than one position
+it = it2 - it1; // getting 
+```
+
 
 
