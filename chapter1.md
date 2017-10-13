@@ -285,7 +285,7 @@ operator
 
 * \[ \]
 
-```
+```cpp
 m['abc'] // returns the value of m['abc'], or create a new item in m with key 'abc' if it does not exist
 ```
 
@@ -294,9 +294,26 @@ member functions:
 * insert
 * erase
 * size
-* find // **do not use `[ ]` **in if's, use find\(\) instead
+* find // **do not use **`[ ]`** **in if's, use find\(\) instead
 
+## sstream
 
+include
+
+```cpp
+#include<sstream>
+```
+
+define
+
+```cpp
+istringstream is(s);  // s is a string
+// use 'is' in the same way as using 'cin'
+
+ostringstream os;
+// use 'os' in the same way as using 'cout'
+s = os.str(); // s get the whole output stuff
+```
 
 
 

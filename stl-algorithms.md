@@ -18,8 +18,9 @@ find(begin, end, ele); // find in O(N) time
 
 next_permutation(begin, end)
 prev_permutation(begin, end) // find and change it to the alphabetically next or previous permutation of the interval
-
 ```
+
+## 
 
 
 
