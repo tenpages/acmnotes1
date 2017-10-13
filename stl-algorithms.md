@@ -22,16 +22,20 @@ next_permutation(begin, end)
 prev_permutation(begin, end) // find and change it to the alphabetically next or previous permutation of the interval
 ```
 
-* implement `cmp()` for self-created structure:
+* implement `<` for self-created structure:
 
-```
+```cpp
 struct point {
     double x,y;
     //...
     bool operator < (const point& p) const {
-        
+        if(x < p.x - epsilon) return true; 
+        if(x > p.x + epsilon) return false; 
+        if(y < p.y - epsilon) return true; 
+        if(y > p.y + epsilon) return false; 
+        return false; 
     }
-}
+} // operator '<' is reloaded so that 'point's can be sorted firstly by x and secondly by y
 ```
 
 ## copy
