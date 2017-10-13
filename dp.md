@@ -2,7 +2,7 @@
 
 find the recursive formula
 
-fill the table bottom-up
+\(almost always\) fill the table bottom-up
 
 ## techniques
 
