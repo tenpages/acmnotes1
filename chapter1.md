@@ -86,6 +86,15 @@ v.erase(it); // remove the ele at it
 v.erase(v.begin(),v.begin()+2); // remove first 2 eles (not removing the third one, which is (v.begin()+2) pointing at)
 ```
 
+* assign:
+
+```
+assign( begin_pointer, end_pointer) // put something else into the vector
+
+set<int> s;
+v.assign(s.begin(),s.end())
+```
+
 ## pairs
 
 define:
