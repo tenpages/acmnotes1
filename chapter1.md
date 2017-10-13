@@ -220,6 +220,16 @@ define
 set<int> s;
 ```
 
+init
+
+```
+int data[5]={5,1,3,4,2}
+vector<int> v; v={1,2,3,2,3,4}
+set<int> s(data, data+5); // s={1,2,3,4,5}
+set<int> s(v.begin(), v.end()); // s={1,2,3,4}
+vector<int> v(s.begin(), s.end()); // v={1,2,3,4} (sorted and distinct)
+```
+
 member functions:
 
 * insert
