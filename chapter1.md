@@ -141,5 +141,13 @@ it = max_element(v.begin(),v.end()) // returns pointer
 n = *max_element(v.begin(),v.end()) // returns value
 ```
 
+* sort\(\)
+
+```cpp
+sort( begin_pointer, end_pointer[, compare_function] )
+sort(x.begin(), x.end()) // sort in ascending order
+sort(x.rbegin(), x.rend()) // sort in descending order
+```
+
 
 
