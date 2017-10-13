@@ -34,8 +34,12 @@ copy(v1.begin(), v1.end(), v2.end()-v1.size());  // copying v1 to after elements
 ```
 set_union(), set_intersection(), set_difference() and set_symmetric_difference()
 
-it = set_union(begin1, end1, begin2, end2, begin_result);
+set_union(begin1, end1, begin2, end2, begin_result) // returns iterator point to the last ele in result
 // remind: the size of result must be enough
+
+vector<int> v1 = {1,2,3,4,5};
+vector<int> v2 = {3,4,5,6,7};
+vector<int> v3(v1.size()+v2.size());
 result.resize( it - v.begin );
 ```
 
