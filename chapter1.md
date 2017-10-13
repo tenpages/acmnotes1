@@ -48,7 +48,7 @@ v.clear()
 
 * initialization:
 
-```
+```cpp
 vector<int> v2 = v1;
 vector<int> v3(v1);  // v2 and v3 are the same
 ```
