@@ -11,6 +11,8 @@ min(a,b);
 max(a,b);   // returns minimum or maximum ele
 swap(a,b);  // swaps
 
+fill(begin, end, value);  //reinitialize
+
 sort(begin, end);   // sort ascendingly
 sort(begin, end, cmp());
 // remind: cmp() should be based on '<' operator
