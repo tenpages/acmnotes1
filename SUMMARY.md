@@ -5,4 +5,5 @@
 * [STL algorithms](stl-algorithms.md)
 * [DP](dp.md)
 * [Notes](notes.md)
+* [string processing](string-processing.md)
 
