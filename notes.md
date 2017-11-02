@@ -8,6 +8,8 @@ use `%i64d` for long long integers
 
 ### typedef for stl contianers
 
+for reducing typing and covenience of 
+
 ```
 typedef vector<int> i;
 typedef vector<i> ii;
