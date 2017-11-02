@@ -10,7 +10,7 @@ use `%i64d` for long long integers
 
 for reducing typing. and assigning value to vars becomes more covenient.
 
-```
+```cpp
 typedef vector<int> i;
 typedef vector<i> ii;
 typedef pair<int, double> pp;
