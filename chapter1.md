@@ -245,6 +245,24 @@ string s = "hello";
 string s1=substr(0,3); //s1="hel"
 ```
 
+* remove:
+
+```cpp
+remove( index, length )
+remove( iterator )
+remove( iterator_first, iterator_last )
+
+std::string str ("This is an example sentence.");
+std::cout << str << '\n';
+                                         // "This is an example sentence."
+str.erase (10,8);                        //            ^^^^^^^^
+                                         // "This is an sentence."
+str.erase (str.begin()+9);               //           ^
+                                         // "This is a sentence."
+str.erase (str.begin()+5, str.end()-9);  //       ^^^^^
+                                         // "This sentence."
+```
+
 ## set
 
 include
