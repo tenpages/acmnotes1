@@ -1,9 +1,8 @@
-### null, eof, etc.
+### special characters
 
-```
-NULL means 0 == '\000'
-EOF == -1
-```
+`NULL` means `0` or `'\000'`
+
+`EOF == -1`
 
 ### char\* and string
 
