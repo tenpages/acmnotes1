@@ -8,7 +8,7 @@ use `%i64d` for long long integers
 
 ### typedef for stl contianers
 
-for reducing typing and covenience of 
+for reducing typing. and assigning value to vars becomes more covenient.
 
 ```
 typedef vector<int> i;
