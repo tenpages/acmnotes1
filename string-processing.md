@@ -9,7 +9,7 @@ char *sch = str.c_str(); // string -> char*
 ```
 #include<cstring>
 
-
+strtok( str, delimiter )
 ```
 
 
