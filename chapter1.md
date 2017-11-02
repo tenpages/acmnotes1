@@ -253,7 +253,6 @@ remove( iterator )
 remove( iterator_first, iterator_last )
 
 std::string str ("This is an example sentence.");
-std::cout << str << '\n';
                                          // "This is an example sentence."
 str.erase (10,8);                        //            ^^^^^^^^
                                          // "This is an sentence."
