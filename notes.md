@@ -18,5 +18,11 @@ typedef pair<int, double> pp;
 pp a=pp(10,1.0);
 ```
 
+### cmath
+
+#### rounding up
+
+
+
 
 
