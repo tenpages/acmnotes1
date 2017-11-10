@@ -33,10 +33,16 @@ pp a=pp(10,1.0);
 
 cannot use `%` with floating numbers. use `fmod( num, denominator )` instead
 
-### i/o
+### iomanip
 
 `std::fixed` output numbers with floating-point notation  
 `std::scientific` output numbers with scientific notation
 
+#### iomanip
+
 include: `iomanip.h`
+
+`std::setprecision( num )` set decimal precision
+
+
 
