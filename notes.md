@@ -33,5 +33,15 @@ pp a=pp(10,1.0);
 
 cannot use `%` with floating numbers. use `fmod( num, denominator )` instead
 
+### i/o
+
+`std::fixed` 
+
+`std::scientific` 
+
+include: `iomanip.h`
+
+
+
 
 
