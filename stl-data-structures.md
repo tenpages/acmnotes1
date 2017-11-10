@@ -419,7 +419,7 @@ operator []
 
 ### priority queue
 
-```
+```cpp
 .empty()
 .size()
 .top()
@@ -435,7 +435,7 @@ delete will remove all elements with same key
 
 ### bitset
 
-```
+```cpp
 bitset< size > bitset_name;
 
 .any() // return true if 1 exists
