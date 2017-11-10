@@ -20,11 +20,13 @@ pp a=pp(10,1.0);
 
 ### cmath
 
-#### rounding up
+#### rounding
 
 | function | usage |
 | :--- | :--- |
-|  |  |
+| `ceil( num )` | round up |
+| `floor( num )` | round down |
+| `round( num )` |  |
 
 
 
