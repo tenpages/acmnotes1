@@ -31,5 +31,7 @@ pp a=pp(10,1.0);
 
 #### mod
 
-cannot use % with floating numbers. use fmode\(
+cannot use `%` with floating numbers. use `fmod( num, denominator )` instead
+
+
 
