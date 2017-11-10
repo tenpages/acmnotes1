@@ -381,12 +381,11 @@ s = os.str(); // s get the whole output stuff
 .size()
 .top()
 .push( ele )
-.pop()
 ```
 
 ### queue
 
-```
+```cpp
 .empty()
 .size()
 .front()
@@ -395,18 +394,20 @@ s = os.str(); // s get the whole output stuff
 .pop()
 ```
 
-### dequeue
+### dequeue/list
 
-```
+```cpp
 //Capacity
 .size()
 .resize( new_size )
 .empty()
+
 //Elements
 operator []
 .at( pos )
 .front()
 .back()
+
 //Modifiers
 .push_back( ele )
 .push_forward( ele )
@@ -414,6 +415,38 @@ operator []
 .pop_forward()
 .insert()
 .erase()
+```
+
+### priority queue
+
+```
+.empty()
+.size()
+.top()
+.push( ele )
+.pop()
+```
+
+### multiset
+
+set that allow multiple elements with same key
+
+delete will remove all elements with same key
+
+### bitset
+
+```
+bitset< size > bitset_name;
+
+.any() // return true if 1 exists
+.none() // return true if no 1 exists
+.count() // return # of 1's
+.size() // return size
+operator [] // access the bit
+.set( ele ) // set bit to 1
+.reset( ele ) // set bit to 0
+.flip( ele ) // reverse the bit
+.to_ulong() // return an unsigned long number
 ```
 
 
