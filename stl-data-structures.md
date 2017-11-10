@@ -410,6 +410,10 @@ operator []
 //Modifiers
 .push_back( ele )
 .push_forward( ele )
+.pop_back()
+.pop_forward()
+.insert()
+.erase()
 ```
 
 
