@@ -35,13 +35,8 @@ cannot use `%` with floating numbers. use `fmod( num, denominator )` instead
 
 ### i/o
 
-`std::fixed` 
-
-`std::scientific` 
+`std::fixed` output numbers with floating-point notation  
+`std::scientific` output numbers with scientific notation
 
 include: `iomanip.h`
-
-
-
-
 
