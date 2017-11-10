@@ -287,8 +287,6 @@ str.erase (str.begin()+5, str.end()-9);  //       ^^^^^
 .replace( starting_pos, replacing_length, new_str )
 ```
 
-
-
 ## set
 
 include
