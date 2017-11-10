@@ -189,6 +189,21 @@ sort(x.begin(), x.end()) // sort in ascending order
 sort(x.rbegin(), x.rend()) // sort in descending order
 ```
 
+* unique\(\)
+
+```cpp
+unique( begin_pointer, end_pointer, compare_fucntion )
+
+bool cmp(int a, ant b){  //for comparing function
+    return (a==b);
+}
+unique(v.begin(), v.end())
+```
+
+note that you have to resize after using unique.
+
+
+
 iterator functions:
 
 ```cpp
