@@ -26,8 +26,10 @@ pp a=pp(10,1.0);
 | :--- | :--- | :--- |
 | `ceil( num )` | round up |  |
 | `floor( num )` | round down |  |
-| `round( num )` | round to the nearest, .5 to 1.0 | only works in C++11 and later |
-| `trunc( num )` | round toward zero | only works for C++11 and later |
+| `round( num )` | round to the nearest, .5 to 1.0 | only supported by C++11 and later |
+| `trunc( num )` | round toward zero | only supported by C++11 and later |
 
+#### mod
 
+cannot use % with floating numbers. use fmode\(
 
