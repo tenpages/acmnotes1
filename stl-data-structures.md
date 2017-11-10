@@ -374,5 +374,43 @@ ostringstream os;
 s = os.str(); // s get the whole output stuff
 ```
 
+### stack
+
+```cpp
+.empty()
+.size()
+.top()
+.push( ele )
+.pop()
+```
+
+### queue
+
+```
+.empty()
+.size()
+.front()
+.back()
+.push( ele )
+.pop()
+```
+
+### dequeue
+
+```
+//Capacity
+.size()
+.resize( new_size )
+.empty()
+//Elements
+operator []
+.at( pos )
+.front()
+.back()
+//Modifiers
+.push_back( ele )
+.push_forward( ele )
+```
+
 
 
