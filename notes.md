@@ -22,11 +22,12 @@ pp a=pp(10,1.0);
 
 #### rounding
 
-| function | usage |
-| :--- | :--- |
-| `ceil( num )` | round up |
-| `floor( num )` | round down |
-| `round( num )` |  |
+| function | usage | note |
+| :--- | :--- | :--- |
+| `ceil( num )` | round up |  |
+| `floor( num )` | round down |  |
+| `round( num )` | round to the nearest, .5 to 1.0 | only works in C++11 and later |
+| `trunc( num )` | round toward zero | only works for C++11 and later |
 
 
 
