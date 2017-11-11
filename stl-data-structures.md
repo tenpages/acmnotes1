@@ -248,9 +248,9 @@ string s1=substr(0,3); //s1="hel"
 * remove:
 
 ```cpp
-remove( index, length )
-remove( iterator )
-remove( iterator_first, iterator_last )
+erase( index, length )
+erase( iterator )
+erase( iterator_first, iterator_last )
 
 str ("This is an example sentence.");
                                          // "This is an example sentence."
